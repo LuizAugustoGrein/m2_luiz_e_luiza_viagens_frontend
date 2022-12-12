@@ -1,8 +1,3 @@
-const APICredentials = {
-    email: "luiza@gmail.com",
-    password: "123456"
-}
-
 var apiToken = null;
 
 async function authenticate () {
@@ -134,8 +129,6 @@ function verifyClick() {
                 <th scope="col">Ano</th>
             </tr>
         `);
-    
-        var users = [];
 
         var userID = $(this).data('id');
 
