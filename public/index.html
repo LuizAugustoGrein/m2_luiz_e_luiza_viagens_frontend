@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Viagens Frontend - M2</title>
+</head>
+<body>
+    <header class="d-flex justify-content-center py-3 bg-dark text-white">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <button id="show-all-trips" class="nav-link text-white" 
+                aria-current="page">Todas as viagens</button>
+            </li>
+            <li class="nav-item">
+                <button id="show-users-trips" class="nav-link text-white"
+                aria-current="page">Viagens por usuários</button>
+            </li>
+        </ul>
+    </header>
+    
+    <section class="container">
+        <h2 class="main-title mt-5">Olá, seja bem vindo! selecione um item para continuar</h2>
+        <table class="table mt-5">
+            <thead id="head-trips">
+            </thead>
+            <tbody id="body-trips">
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
